@@ -10,14 +10,14 @@
     background-color   :orange ;
     border: 1px solid black;
 } */
-#container{
-    display: grid;
-    grid-template-columns: 200px 500px 200px 100px;
-    grid-template-rows: 100px 400px;
-    position: auto;
+#container {
+  display: grid;
+  grid-template-columns: 200px 500px 200px 100px;
+  grid-template-rows: 100px 400px;
+  position: auto;
 }
-.content{
-    background-color   :blueviolet ;
-    border: 1px solid gray;
-    font-size: 22px;
+.content {
+  background-color: blueviolet;
+  border: 1px solid gray;
+  font-size: 22px;
 }
