@@ -1,0 +1,31 @@
+#container{
+    display: grid;
+    /* grid-template-columns: 5rem 10% min-content 10%; */ 
+    /* "min-content" en uzun kelimenin uzunlugunu dikkkate alir */ /* grid-template-columns: 5rem 10% minmax(80px, 360px) 10%;  */
+    /* grid-template-columns: 100px 10% auto 20%;  */
+    /* grid-template-columns: 1fr 1fr 5fr 3fr; */ /*  ekrani 10 a böler */ /* en cok bu yapi kullanilir */
+    /* grid-template-columns: repeat(6, 1fr);  */
+    grid-template-columns: repeat(4, 200px); 
+    grid-template-rows: 100px 100px 100px 100px;
+}
+.content{
+    background-color: cornflowerblue;
+    border: 1px solid black;
+}
+.content1{
+    grid-column-start: 1; /* grid line numarasi yazilir */
+    grid-column-end: 4;  /* grid line numarasi yazilir */
+    background-color: crimson;
+}
+.content2{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: darkcyan;
+}
+.content3{
+    grid-column: 1/3;
+    grid-row: 2/4;
+    background-color: orange;
+}

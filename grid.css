@@ -1,9 +1,23 @@
-#container{
+/* #container{
     display:grid;
     grid-template-columns: 100px 300px 100px;
     grid-template-rows: 100px 500px 100px;
-}
-.content{
+   /*  grid-column-gap: 10px;
+    grid-row-gap: 20px; */
+/*     grid-gap: 30px 5px;  // /* row gap - column gap */
+/* } */
+/* .content{
     background-color   :orange ;
     border: 1px solid black;
+} */
+#container{
+    display: grid;
+    grid-template-columns: 200px 500px 200px 100px;
+    grid-template-rows: 100px 400px;
+    position: auto;
+}
+.content{
+    background-color   :blueviolet ;
+    border: 1px solid gray;
+    font-size: 22px;
 }
